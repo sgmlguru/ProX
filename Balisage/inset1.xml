@@ -1,0 +1,5 @@
+<section id="id1">
+    <title>Inset 1 Section</title>
+    <p>Inset 1 text.</p>
+    <inset xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///Users/System/Library/Containers/com.bitnami.mampstack/Data/app-5_4_9/apache2/htdocs/prox/refactor/inset3.xml#id3" xlink:type="simple"/>
+</section>

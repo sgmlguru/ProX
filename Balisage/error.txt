@@ -1,0 +1,7 @@
+<px:document-sequence xmlns:px='http://xmlcalabash.com/ns/document-sequence'
+                      port='errors'
+                      xpl-file='file:/Users/System/Library/Containers/com.bitnami.mampstack/Data/app-5_4_9/apache2/htdocs/prox/refactor/prox-wrapper.xpl'
+                      xpl-line='304'
+                      dateTime='2013-12-01T15:47:38+01:00'>
+<px:document><c:result xmlns:c="http://www.w3.org/ns/xproc-step"/></px:document>
+</px:document-sequence>

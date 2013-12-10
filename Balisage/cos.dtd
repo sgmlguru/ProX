@@ -1,0 +1,64 @@
+<?PUBLIC "-//COS//DTD COSML 1.0//ISO10646"?>
+
+<!-- This is a generic COS DTD, based on IOML 2.0.  --> 
+<!-- COSML DTD 1.0 -->
+<!-- Ari Nordstr&#x00F6;m, Condesign Operations Support AB -->
+
+
+
+<!-- Demo Mode Settings -->
+<!-- ================== -->
+
+<!-- These are declared in demo.dtd for COSML demo mode -->
+<!ENTITY % include-in-demo  "IGNORE" >
+<!ENTITY % ignore-in-demo   "INCLUDE" >
+
+
+
+<!-- Root Element Name -->
+<!-- ================= -->
+
+<![%include-in-demo;[
+<!ENTITY % root "cargotec" >
+]]>
+<!ENTITY % root "cos" >
+
+
+
+<!-- Entities Modules -->
+<!-- ================ -->
+
+<!ENTITY % entities PUBLIC "-//COS//ENTITIES COSML 1.0//ISO10646" "entities.mod" >
+%entities;
+
+
+
+
+<!-- ===================== -->
+<!-- Top Level Definitions -->
+<!-- ===================== -->
+
+
+<!ELEMENT %root;	(meta-data, body, back?) >
+<!ATTLIST %root;	%doc.element.att;
+					%applic.att;
+					%common.att; >
+
+
+
+<!-- Element Declaration Modules -->
+<!-- =========================== -->
+
+<![%include-in-demo;[
+<!ENTITY % part-list PUBLIC "-//CARGOTEC//ELEMENTS CMLD 1.0//ISO10646" "part-list.mod" >
+%part-list;
+]]>
+
+<!ENTITY % calstblx PUBLIC "-//Information och media//DTD CALS XML Table Model 2.0//EN" "calstblx.mod" >
+%calstblx;
+
+<!ENTITY % meta-data PUBLIC "-//COS//ELEMENTS Meta-data Structures 1.0//ISO10646" "meta-data.mod" >
+%meta-data;
+
+<!ENTITY % elements PUBLIC "-//COS//ELEMENTS COSML 1.0//ISO10646" "elements.mod" >
+%elements;
