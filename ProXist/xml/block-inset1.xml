@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE admonishment SYSTEM "/Users/System/Documents/SGML/DTD/Cassis/DTD/cos.dtd">
+<admonishment type="warning" id="idb1">
+    <p>Inset 1 text.</p>
+</admonishment>

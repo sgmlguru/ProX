@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section SYSTEM "http://localhost:8080/exist/rest/db/docs/cosml/system/dtd/cos.dtd">
+<section id="id2">
+    <title>Inset 2 Section</title>
+    <p>Inset 2 text. <xref>BROKEN LOCATOR: <locator xmlns:xlink="http://www.w3.org/1999/xlink"
+                id="id-broken-locator" xlink:href="nonexistent.xml#no-id"/>.</xref></p>
+    <p>Bla bla.<xref> VALID LINK: <locator xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="valid-locator" xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/inset3.xml#id3"
+            />.</xref></p>
+    <inset xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/inset3.xml#id3"/>
+</section>

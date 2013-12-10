@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cos SYSTEM "http://localhost:8080/exist/rest/db/docs/cosml/system/dtd/cos.dtd">
+<cos>
+    <meta-data>
+        <doc-info>
+            <title>Title</title>
+        </doc-info>
+        <author>
+            <name>
+                <first>A</first>
+                <last>N</last>
+            </name>
+        </author>
+    </meta-data>
+    <body>
+        <section>
+            <title>Section 1 in root</title>
+            <p>Text in s1</p>
+            <figure>
+                <graphics xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/Balisage-logotype-2013.png"/>
+                <caption>Image 1</caption>
+            </figure>
+            <inset xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/inset1.xml#id1"/>
+        </section>
+        <inset xmlns:xlink="http://www.w3.org/1999/xlink"
+            xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/inset2.xml#id2"/>
+    </body>
+</cos>

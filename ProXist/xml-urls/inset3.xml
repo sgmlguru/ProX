@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section SYSTEM "http://localhost:8080/exist/rest/db/docs/cosml/system/dtd/cos.dtd">
+<section id="id3">
+    <title>Inset 3 Section</title>
+    <p>Inset 3 text.</p>
+    <block-inset xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/block-inset1.xml#idb1"/>
+    <inset xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:href="http://localhost:8080/exist/rest/db/docs/pdftest/inset4.xml#id4"/>
+</section>

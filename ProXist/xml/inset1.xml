@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section SYSTEM "/Users/System/Documents/SGML/DTD/Cassis/DTD/cos.dtd">
+<section id="id1">
+    <title>Inset 1 Section</title>
+    <p>Inset 1 text.</p>
+    <inset xlink:href="urn:inset3#id3"/>
+</section>
